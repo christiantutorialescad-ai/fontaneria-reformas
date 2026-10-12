@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hzBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <path id="badgeTop" d="M 16 60 A 44 44 0 1 1 104 60" fill="none" />
+    <path id="badgeBot" d="M 104 60 A 44 44 0 0 1 16 60" fill="none" />
+  </defs>
+
+  <!-- Left Circular Badge (120x120 container, radius 52) -->
+  <g transform="translate(10, 8)">
+    <circle cx="52" cy="52" r="50" fill="url(#hzBlue)" stroke="#f59e0b" stroke-width="2.5" />
+    <circle cx="52" cy="52" r="45" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.6" />
+    <circle cx="52" cy="52" r="32" fill="#172554" stroke="#f59e0b" stroke-width="1.2" />
+
+    <!-- Circular text -->
+    <path id="circTop" d="M 14 52 A 38 38 0 1 1 90 52" fill="none"/>
+    <path id="circBot" d="M 90 52 A 38 38 0 0 1 14 52" fill="none"/>
+
+    <text fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="6.2" font-weight="900" letter-spacing="1.4" text-anchor="middle">
+      <textPath href="#circTop" startOffset="50%">FONTANERÍA</textPath>
+    </text>
+    <text fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="6.2" font-weight="900" letter-spacing="1.4" text-anchor="middle">
+      <textPath href="#circBot" startOffset="50%">CONSTRUCCIÓN</textPath>
+    </text>
+
+    <!-- Center Icon & Initials -->
+    <!-- Roof -->
+    <path d="M 52 28 L 65 38 L 62 40 L 52 32 L 42 40 L 39 38 Z" fill="#ffffff" />
+    <rect x="58" y="29" width="3" height="6" fill="#ffffff" />
+    
+    <!-- F&R -->
+    <text x="52" y="52" fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="12" font-weight="900" text-anchor="middle">
+      F&amp;R
+    </text>
+
+    <!-- Mini tools/brick -->
+    <rect x="42" y="56" width="6" height="2.5" fill="#ffffff" rx="0.5"/>
+    <rect x="49" y="56" width="6" height="2.5" fill="#ffffff" rx="0.5"/>
+    <rect x="56" y="56" width="6" height="2.5" fill="#ffffff" rx="0.5"/>
+    <!-- Experience tag -->
+    <rect x="30" y="66" width="44" height="6" rx="3" fill="#f59e0b"/>
+    <text x="52" y="70.5" fill="#0f172a" font-family="'Montserrat', sans-serif" font-size="3.5" font-weight="900" text-anchor="middle">
+      20 AÑOS EXP.
+    </text>
+  </g>
+
+  <!-- Right Text Block -->
+  <g transform="translate(130, 20)">
+    <!-- Main Title -->
+    <text x="0" y="32" fill="#0f172a" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="28" font-weight="900" letter-spacing="0.5">
+      FONTANERÍA <tspan fill="#0284c7">REFORMAS</tspan>
+    </text>
+    
+    <!-- Subtitle 1 -->
+    <text x="0" y="54" fill="#ea580c" font-family="'Montserrat', sans-serif" font-size="12.5" font-weight="800" letter-spacing="1.2">
+      HERRAMIENTAS Y MATERIALES DE CONSTRUCCIÓN
+    </text>
+
+    <!-- Subtitle 2 -->
+    <text x="0" y="72" fill="#475569" font-family="'Montserrat', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">
+      VENTA E INSTALACIÓN DE AIRE ACONDICIONADO Y AGUA CALIENTE
+    </text>
+
+    <!-- Location pill -->
+    <g transform="translate(0, 80)">
+      <rect x="0" y="0" width="168" height="18" rx="9" fill="#e0f2fe" />
+      <circle cx="8" cy="9" r="4" fill="#0284c7" />
+      <text x="18" y="12.5" fill="#0369a1" font-family="'Montserrat', sans-serif" font-size="9" font-weight="700">
+        Madrid / Vallecas · C/ Carlos Martín Álvarez, 64 Bis
+      </text>
+    </g>
+  </g>
+</svg>
